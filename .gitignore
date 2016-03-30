@@ -1,0 +1,9 @@
+# IntelliJ IDEA Files
+
+*.iml
+*.ipr
+*.iws
+*.idea
+
+# Tomcat files
+apache-tomcat-9.0.0.M1-windows-x64/apache-tomcat-9.0.0.M1
