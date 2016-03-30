@@ -33,9 +33,27 @@
       <artifactId>spring-webmvc</artifactId>
       <version>4.0.0.RELEASE</version>
     </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-server</artifactId>
+      <version>9.2.3.v20140905</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+    </dependency>
+
   </dependencies>
   <build>
     <finalName>Webproject</finalName>
-
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-maven-plugin</artifactId>
+        <version>9.2.3.v20140905</version>
+      </plugin>
+    </plugins>
   </build>
 </project>
